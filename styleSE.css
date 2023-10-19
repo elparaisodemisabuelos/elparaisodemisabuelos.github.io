@@ -86,6 +86,7 @@ body{
     background-repeat: no-repeat;
     max-height: 200px;
     text-align: center;
+    height: calc(100vh - 100px);
     
 }
 
