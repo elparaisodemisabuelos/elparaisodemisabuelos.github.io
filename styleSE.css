@@ -1,0 +1,170 @@
+
+html body {
+
+    padding: 0;
+    margin: 0;
+}
+#whatsapp-link {
+    position: fixed; 
+    bottom: 22px; 
+    right: 15px; 
+    z-index: 999; 
+}
+#whatsapp-link img {
+    width: 100px; 
+    height: auto; 
+    
+}
+.logo img {
+    width: 100%; 
+    max-width: 130px; 
+    height: auto; 
+}
+nav ul {
+
+    list-style-type: none;
+    padding: 0;
+    text-align: left; 
+}
+
+nav li {
+    display: inline;
+    margin-right: 90px;
+    
+}
+
+nav a {
+    font-family: 'Playfair Display';
+    font-size: 26px;
+    text-decoration: none; 
+    color: #000; 
+    transition: color 0.3s; 
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}
+header {
+    background-color: #74bbd100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    max-width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+}
+
+nav a:hover {
+    color: #CD8F00; 
+}
+nav {
+    margin-right: 90px;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    padding: 5px;
+    list-style: none;
+    margin-left: 120px;
+}
+
+
+.dropdown:hover .submenu {
+    display: block;
+}
+
+
+.submenu li {
+    margin: 1px 0;
+}
+
+body{
+    background-image: url('images/Fondo_servicios.jpg'); 
+    background-size: cover;
+    background-position: center center; 
+    font-family: 'Orelega One', cursive;   
+    padding-top: 100px; 
+    background-repeat: no-repeat;
+    max-height: 200px;
+    text-align: center;
+    
+}
+
+h1 {
+    padding-top: 20px; 
+  }
+
+
+.carrousel{
+    width: 100%;
+    padding-top: 50px;
+}
+
+.conteCarrousel{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.itemCarrousel{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselTarjeta{
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselArrows{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 96%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px; 
+}
+
+.itemCarrouselArrows > i:hover {
+    cursor: pointer;
+}
+
+
+
+.conteCarrouselController{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conteCarrouselController > a{
+    text-decoration: none;
+    font-size: 2em;
+    color: grey;
+}
+
+.itemCarrouselArrows > a > i{
+    color: rgb(0, 0, 0);
+}
+.content-leftS,
+.content-centerS,
+.content-rightSSSSSS,
+.content-rightSS,
+.content-rightSSS,
+.content-rightSSSS,
+.content-rightSSSSS,
+.content-rightS{
+    flex: 1;
+    text-align: center; 
+    display: inline-block;
+    width: 400px;
+    padding: 5px;
+    transition: transform 1s ease-in-out; 
+    vertical-align: top;
+   
+}
